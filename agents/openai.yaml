@@ -1,0 +1,4 @@
+interface:
+  display_name: "SCIE选刊与发表模式核查"
+  short_description: "按2025年中科院分区筛选SCIE非OA期刊，排除预警及转全OA公告"
+  default_prompt: "使用 $scie-journal-selection，根据我的论文筛选符合2025年中科院分区要求的SCIE期刊，允许混合期刊非OA路径，排除2025年预警期刊，并核查截至检索当天的转全OA报告。"
